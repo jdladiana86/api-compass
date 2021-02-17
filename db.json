@@ -1,19 +1,321 @@
 {
-    "utenti": [
+    "GiorniDisponibili": [
+        "2021-02-18T00:00:00+01:00",
+        "2021-02-19T00:00:00+01:00",
+        "2021-02-20T00:00:00+01:00",
+        "2021-02-22T00:00:00+01:00",
+        "2021-02-23T00:00:00+01:00",
+        "2021-02-24T00:00:00+01:00",
+        "2021-02-25T00:00:00+01:00",
+        "2021-02-26T00:00:00+01:00",
+        "2021-02-27T00:00:00+01:00",
+        "2021-03-01T00:00:00+01:00",
+        "2021-03-02T00:00:00+01:00",
+        "2021-03-03T00:00:00+01:00"
+    ],
+    "ElencoFiliali": [
         {
-            "id": 1,
-            "name": "Javier",
-            "cognome": "Ladiana"
+            "idFiliale":"81",
+            "nomeFiliale":"Filiale di Taranto",
+            "indirizzo":"Via Cavallotti, 2",
+            "coordinate":{
+                "lat":40.472512,
+                "lng":17.246501
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"74100",
+            "citta":"TARANTO",
+            "provincia":"TA"
         },
         {
-            "id": 2,
-            "name": "Manuel",
-            "cognome": "De Stefano"
+            "idFiliale":"241",
+            "nomeFiliale":"Filiale di Francavilla Fontana",
+            "indirizzo":"Via Quinto Ennio, 6",
+            "coordinate":{
+                "lat":40.52574,
+                "lng":17.58872
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"72021",
+            "citta":"FRANCAVILLA FONTANA",
+            "provincia":"BR"
         },
         {
-            "id": 3,
-            "name": "Valentina",
-            "cognome": "Bilotta"
+            "idFiliale":"736",
+            "nomeFiliale":"Agenzia Autorizzata di Manduria",
+            "indirizzo":"Viale Aldo Moro 46",
+            "coordinate":{
+                "lat":40.39311,
+                "lng":17.6264
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"74024",
+            "citta":"MANDURIA",
+            "provincia":"TA"
+        },
+        {
+            "idFiliale":"163",
+            "nomeFiliale":"Filiale di Monopoli",
+            "indirizzo":"Viale A.Moro 69/22 (Ang.Via A.Pesce)",
+            "coordinate":{
+                "lat":40.947981,
+                "lng":17.290573
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"70043",
+            "citta":"MONOPOLI",
+            "provincia":"BA"
+        },
+        {
+            "idFiliale":"717",
+            "nomeFiliale":"Agenzia Autorizzata di Gioia del Colle",
+            "indirizzo":"Via F.Fellini,19",
+            "coordinate":{
+                "lat":40.80889,
+                "lng":16.92242
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"70023",
+            "citta":"GIOIA DEL COLLE",
+            "provincia":"BA"
+        },
+        {
+            "idFiliale":"725",
+            "nomeFiliale":"Agenzia Autorizzata di Policoro",
+            "indirizzo":"Via Lazio 2",
+            "coordinate":{
+                "lat":40.21277,
+                "lng":16.68036
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"75025",
+            "citta":"POLICORO",
+            "provincia":"MT"
+        },
+        {
+            "idFiliale":"745",
+            "nomeFiliale":"Agenzia Autorizzata di Mola di Bari",
+            "indirizzo":"Via Paolo VI 59",
+            "coordinate":{
+                "lat":41.06332,
+                "lng":17.07989
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"70042",
+            "citta":"BARI",
+            "provincia":"BA"
+        },
+        {
+            "idFiliale":"84",
+            "nomeFiliale":"Filiale di Brindisi",
+            "indirizzo":"Via Appia, 175",
+            "coordinate":{
+                "lat":40.631155,
+                "lng":17.928862
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"72100",
+            "citta":"BRINDISI",
+            "provincia":"BR"
+        },
+        {
+            "idFiliale":"150",
+            "nomeFiliale":"Filiale di Matera",
+            "indirizzo":"Via Dante, 25",
+            "coordinate":{
+                "lat":40.669984,
+                "lng":16.597457
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"75100",
+            "citta":"MATERA",
+            "provincia":"MT"
+        },
+        {
+            "idFiliale":"202",
+            "nomeFiliale":"Filiale di Bari Repubblica",
+            "indirizzo":"V.le della Repubblica, 83",
+            "coordinate":{
+                "lat":41.108928,
+                "lng":16.873798
+            },
+            "chiusuraStraordinaria":false,
+            "cap":"70125",
+            "citta":"BARI",
+            "provincia":"BA"
         }
-    ]
+    ],
+    "OrariDisponibili": {
+        "giorno":"2021-02-19T00:00:00",
+        "codFiliale":"81",
+        "orariDisponibili":[
+            {
+                "hour":9,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":9,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":10,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":10,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":11,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":11,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":12,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":12,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":14,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":15,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":15,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":16,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":16,
+                "minute":30,
+                "disponibile":true
+            },
+            {
+                "hour":17,
+                "minute":0,
+                "disponibile":true
+            },
+            {
+                "hour":17,
+                "minute":30,
+                "disponibile":true
+            }
+        ]
+    },
+    "CheckByCFAsyncNew": {
+        "status":200,
+        "message":"ok",
+        "trackingUrl":null,
+        "appuntamento":{
+            "tipo_appuntamento":0,
+            "prodotto":null,
+            "luogo":null,
+            "data_appuntamento":null,
+            "orario_appuntamento":null,
+            "id_filiale":null,
+            "filiale":null,
+            "indirizzoFiliale":null,
+            "utente":{
+                "codice_fiscale":null,
+                "nome":null,
+                "cognome":null,
+                "email":null,
+                "telefono":null,
+                "cap":null,
+                "impiego":null,
+                "consensi":null
+            },
+            "oppID":null
+        },
+        "ac":false,
+        "suggestC5":false
+    },
+    "CheckByCFAsyncCensito": {
+        "status":200,
+        "message":"ok",
+        "trackingUrl":null,
+        "appuntamento":{
+            "tipo_appuntamento":0,
+            "prodotto":null,
+            "luogo":null,
+            "data_appuntamento":null,
+            "orario_appuntamento":null,
+            "id_filiale":null,
+            "filiale":null,
+            "indirizzoFiliale":null,
+            "utente":{
+                "codice_fiscale":"MNMMRA80A01F205I",
+                "nome":"MARIO",
+                "cognome":"MO*******LE",
+                "email":"s*************co@compass.it",
+                "telefono":"335*****935",
+                "cap":"00*00",
+                "impiego":"2",
+                "consensi":{
+                    "informativa":false,
+                    "dati_personali":false,
+                    "societa_terze":false
+                }
+            },
+            "oppID":null
+        },
+        "ac":false,
+        "suggestC5":false
+    },
+    "CheckByCFAsyncModifica": {
+        "status":200,
+        "message":"ok",
+        "trackingUrl":null,
+        "appuntamento":{
+            "tipo_appuntamento":0,
+            "prodotto":"1",
+            "luogo":"TARANTO",
+            "data_appuntamento":"20210220",
+            "orario_appuntamento":"11:30",
+            "id_filiale":"81",
+            "filiale":"Filiale di Taranto",
+            "indirizzoFiliale":"Via Cavallotti, 2",
+            "utente":{
+                "codice_fiscale":"LD************1K",
+                "nome":"Javier",
+                "cognome":"La***na",
+                "email":"j***********na@meduse.agency",
+                "telefono":"394****567",
+                "cap":"",
+                "impiego":"3",
+                "consensi":{
+                    "informativa":false,
+                    "dati_personali":false,
+                    "societa_terze":false
+                }
+            },
+            "oppID":"08p5E000000ekiOQAQ"
+        },
+        "ac":false,
+        "suggestC5":false
+    }
 }
